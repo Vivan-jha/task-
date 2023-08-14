@@ -1,0 +1,83 @@
+
+
+.my-masonry-grid {
+  display: flex;
+  margin-left: -16px;
+  width: auto;
+}
+
+
+.my-masonry-grid_column {
+  padding-left: 16px;
+  background-clip: padding-box;
+}
+
+.search {
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: background-color 0.3s ease-in-out;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.searchterm {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #333;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.searchterm::placeholder {
+  color: #999;
+}
+
+.searchterm:focus {
+  border: 1px solid #333;
+  background-color: #fff;
+  color: #111;
+  border-radius: 5px 0 0 5px;
+}
+
+
+
+.image-item {
+  margin-bottom: 20px;
+  width: 100%;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.image-details {
+  padding: 12px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 0 0 8px 8px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.image-details p {
+  margin-bottom: 6px;
+}
+
+
